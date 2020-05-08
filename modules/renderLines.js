@@ -26,7 +26,7 @@ export function drawLines(arr, x, y, rightPivot, leftPivot){
         else{
             line.style.borderLeftWidth = (0.13).toString() + "em";
             line.style.borderLeftStyle = "solid";
-            line.style.borderLeftColor = "blue";
+            line.style.borderLeftColor = "black";
         }        
         line.style.height = my_length;
         container.appendChild(line);
