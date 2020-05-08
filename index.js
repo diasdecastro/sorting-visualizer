@@ -1,6 +1,7 @@
-require("@babel/polyfill"); // for async/await
+require("babel-polyfill"); // for async/await
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+import _ from 'lodash';
 
 import {bubbleSort, quickSort, heapsort} from "./modules/algorithms";
 import {drawLines} from "./modules/renderLines";
