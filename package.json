@@ -2,19 +2,19 @@
   "name": "myWebApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel index.html"
-  },
+  "main": "index.html",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "@babel/runtime": "^7.9.6",
-    "algorithms": "^0.10.0"
+    "algorithms": "^0.10.0",
+    "hyperapp": "^2.0.4"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.9.6"
-  }  
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "cssnano": "^4.1.10"
+  }
 }
