@@ -5,7 +5,7 @@ export function drawLines(arr, x, y, rightPivot, leftPivot){
     let line = undefined;
     container.innerHTML = '';
     for(let i = 0; i < array.length; i++){
-        let my_length = (array[i]/(7.5)).toString() + "em";
+        let my_length = (array[i]/(8)).toString() + "em";
         line = document.createElement("div");
         line.className = "line";
         if(i === x || i === y){
