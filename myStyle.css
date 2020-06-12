@@ -34,7 +34,7 @@ body {
 
 #centerContent {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
     position: absolute;
     float: left;
@@ -125,7 +125,6 @@ body {
 }
 
 #topBar{
-    position: center;
     width: 100%;
     background-color: black;
     color: white;
@@ -196,4 +195,28 @@ body {
 
 .tvOnCh3{
     background-image: url("./images/tvTemplateOn3.jpg");
+}
+
+.smallWindowMessage{    
+    position: absolute;
+    visibility: hidden;
+}
+
+@media (max-width:1150px){
+    body *{
+        visibility: hidden;
+    }
+
+    #topBar, .logo, .about{  
+        visibility: visible;
+    }
+
+    .smallWindowMessage{
+        display: absolute;
+        font-size: 150%;
+        visibility: visible;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);     
+    }    
 }
